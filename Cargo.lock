@@ -125,9 +125,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.102"
+version = "1.0.104"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c"
+checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
 
 [[package]]
 name = "ar_archive_writer"
@@ -854,9 +854,9 @@ dependencies = [
 
 [[package]]
 name = "crossbeam-epoch"
-version = "0.9.18"
+version = "0.9.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5b82ac4a3c2ca9c3460964f020e1402edd5753411d7737aa39c3714ad1b5420e"
+checksum = "dc74980687109a3b14c72fd458107bf0baa1da1a1a805e178d15501ba9b86d9d"
 dependencies = [
  "crossbeam-utils",
 ]
@@ -1064,7 +1064,7 @@ dependencies = [
 
 [[package]]
 name = "flux-jni-bridge"
-version = "0.6.3"
+version = "0.6.5"
 dependencies = [
  "arrow",
  "arrow-array",
@@ -1081,7 +1081,7 @@ dependencies = [
 
 [[package]]
 name = "flux-loom"
-version = "0.6.3"
+version = "0.6.5"
 dependencies = [
  "anyhow",
  "arrow",
@@ -1108,7 +1108,7 @@ dependencies = [
 
 [[package]]
 name = "fluxcapacitor"
-version = "0.6.3"
+version = "0.6.5"
 dependencies = [
  "anyhow",
  "arrow",
@@ -1135,7 +1135,7 @@ dependencies = [
 
 [[package]]
 name = "fluxcompress-python"
-version = "0.6.3"
+version = "0.6.5"
 dependencies = [
  "arrow",
  "arrow-array",
@@ -2697,9 +2697,9 @@ checksum = "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf"
 
 [[package]]
 name = "rand"
-version = "0.8.5"
+version = "0.8.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404"
+checksum = "e058c7de0b26af77780c769414d6257830bb240f3c38477dbc2c16e5f54d6d4c"
 dependencies = [
  "libc",
  "rand_chacha",
@@ -3906,9 +3906,9 @@ dependencies = [
 
 [[package]]
 name = "xxhash-rust"
-version = "0.8.15"
+version = "0.8.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fdd20c5420375476fbd4394763288da7eb0cc0b8c11deed431a91562af7335d3"
+checksum = "550a2b930b62486a393c52d5c3b84bff264b28aa437ed64694d31e93b1757af7"
 
 [[package]]
 name = "zerocopy"
